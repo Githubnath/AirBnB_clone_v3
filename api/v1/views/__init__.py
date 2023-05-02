@@ -1,20 +1,17 @@
+  
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May   2 23:53:20  2023
-@author: Nathanie  Emenike
-         Ayomide Akanji
-"""
+"""Init file for views module"""
 from flask import Blueprint
+
 
 app_views = Blueprint('app_views', __name__, url_prefix='/api/v1')
 
 
-if (__name__ == 'api.v1.views'):
-    from api.v1.views.index import *
-    from api.v1.views.states import *
-    from api.v1.views.cities import *
-    from api.v1.views.amenities import *
-    from api.v1.views.users import *
-    from api.v1.views.places import *
-    from api.v1.views.places_reviews import *
+from api.v1.views.index import *
+from api.v1.views.states import *
+from api.v1.views.cities import *
+from api.v1.views.amenities import *
+from api.v1.views.users import *
+from api.v1.views.places import *
+from api.v1.views.places_reviews import *
+from api.v1.views.places_amenities import *
