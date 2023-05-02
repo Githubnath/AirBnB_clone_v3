@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep  1 14:42:23 2020
-@authors: Robinson Montes
-          Mauricio Olarte
+Created on Tue May  2 23:29:23 2023
+@authors: Nathaniel Emenike
+          Ayomide Akanji
 """
 from flask import Blueprint, jsonify, request, abort
 from api.v1.views import app_views

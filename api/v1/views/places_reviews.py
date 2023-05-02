@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Sep  1 14:42:23 2020
-@authors: Robinson Montes
-          Mauricio Olarte
+@authors: Nathaniel  Emenike
+          Ayomide Akanji
 """
 from flask import Blueprint, jsonify, request, abort
 from api.v1.views import app_views
